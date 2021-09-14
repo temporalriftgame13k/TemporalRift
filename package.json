@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "uglifyjs source/js/data.js source/js/utils.js source/js/interface.js source/js/timeline.js source/js/puzzle.js source/js/ticker.js source/js/renderer.js source/js/dialog.js source/js/step.js source/js/game.js --compress --mangle --warn --toplevel --output build/s.js"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.14.1"
+  }
+}
